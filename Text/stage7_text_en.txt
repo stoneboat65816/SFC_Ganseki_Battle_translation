@@ -1,0 +1,95 @@
+#VAR(Table,TABLE)
+#ADDTBL("ganseki_table.txt",Table)
+#ACTIVETBL(Table)
+#HDR($0)
+#VAR(MyPtr, CUSTOMPOINTER)
+#CREATEPTR(MyPtr, "HIROM", $00, 16)
+
+#JMP($00)
+//ウフッ わたしフェアリ-のホ゜-ラ。<line>
+//あなたたちか゛ たすけてくれたのね。<line>
+//あなたたちのうわさは きいてしってるわ。 た゛って<line>
+//いまや ゆうめいて゛すもの。<line>
+//ソ゛-ルならきっと ト゛ラコ゛スのすく゛そは゛に いるはす゛よ。。<line>
+//た゛って ソ゛-ルはト゛ラコ゛スのちからにより そのすか゛たを<line>
+//かくしているんて゛すもの。 ト゛ラコ゛スをたおせは゛<line>
+//きっとソ゛-ルは そのすか゛たをあらわすはす゛よ。<line>
+//ト゛ラコ゛スは クレオゆいいつのかさ゛ん メルカノかさ゛んに<line>
+//いけは゛ みつけられるとおもうわ。。。<line>
+//て゛ね しってる?しってる?<line>
+//ト゛ラコ゛スはつよいけと゛ まほうこうけ゛きには<line>
+//よわいんて゛すって!<line>
+//た゛ってマ-リンったら いつもし゛ふ゛んのほうか゛<line>
+//つよいんた゛っていって ト゛ラコ゛スをたおすまほうの<line>
+//けんきゅうをしていたの。 クスクスッ<line>
+//かのし゛ょは ト゛ラコ゛スか゛ソ゛-ルの1は゛んの<line>
+//てしたた゛ってことを よくおもっていなかったみたいなの。<line>
+//それて゛ね それて゛ね。。。   あら わたしったら<line>
+//またし゛ふ゛んか゛ しゃへ゛っては゛かり。。。 ウフフフ<line>
+//それし゛ゃわたしは これからすく゛なかまのところへいって<line>
+//これまて゛のことを おしえなくっちゃいけないから<line>
+//もうおわかれしなくっちゃ。 ほんとうに ありか゛とう<line>
+//こ゛さ゛いました。 おけ゛んきて゛。。。 ハ゜タハ゜タ。。。<end>
+//ウフッ 私、フェァリーのポーラ。
+//あなたたちが助けてくれたのね。
+//あなた達の噂は、聞いて知っているわ。
+//だって今や有名ですもの。
+//ゾールならきっとドラゴスのすぐそばにいるはずよ。
+//だってゾールはドラゴスの力によりその姿を隠しているんですもの。
+//ドラゴスを倒せば、きっとゾールはその姿を現すはずよ。
+//ドラゴスはクレオ唯一の火山メルカメ火山に行けば見つけられると思うわ...
+//でね知ってる？知ってる？
+//ドラゴスは強いけど魔法攻撃には弱いんですって！
+//だってマーリンったらいつも自分の方が強いんだって言って
+//ドラゴスを倒す魔法の研究をしていたの。
+//スクスクッ。
+//彼女はドラゴスがゾールの1番の手しただってことを
+//よく思っていなかったみたいなの。
+//それでねぇ、それでねぇ...
+//あら私ったらまた自分がしゃべってばかり...
+//ウフフフ
+//それじゃ私は、これからすぐ仲間の所へいって
+//これまでのことを教えなくっちゃいけないから
+//もうお別れしなくっちゃ。
+//本当にありがとうございました。
+//お元気で...
+//パタパタ...
+Heehee... I'm Paula the Fairy.<line>
+You're the ones who saved<line>
+me, aren't you?<line>
+I've heard all about you.<line>
+Your reputation precedes you!<line>
+You're famous now, you know.<line>
+As for Zorl, he should be<line>
+somewhere close to Dragos.<line>
+That's because Zorl is using<line>
+Dragos's power to conceal his<line>
+appearance.<line>
+If you defeat Dragos, I'm sure<line>
+Zorl will show himself.<line>
+I think you can find Dragos at<line>
+Mount Melcame, the only volcano<line>
+in Cleo...<line>
+Oh, oh! Did you know?<line>
+Did you know?<line>
+Dragos is strong, but he's weak<line>
+against magic attacks!<line>
+You see, Merlin was always<line>
+bragging that she was stronger,<line>
+and she's been researching magic<line>
+that could defeat Dragos!<line>
+swoosh swoosh<scroll>
+I think she really couldn't stand<line>
+that Dragos was Zorl's number one<line>
+subordinate.<line>
+And then, and then... <line>
+oh my, listen to me, just<line>
+talking and talking again.<line>
+Heeheehee!<line>
+Well, I need to go meet up with<line>
+my friends right away and tell<line>
+them everything that's happened,<line>
+so I really must be going now.<line>
+Thank you so much for everything.<line>
+Take care...<line>
+flutter flutter...<scroll><end>

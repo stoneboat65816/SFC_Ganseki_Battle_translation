@@ -1,0 +1,64 @@
+#VAR(Table,TABLE)
+#ADDTBL("ganseki_table.txt",Table)
+#ACTIVETBL(Table)
+#HDR($0)
+#VAR(MyPtr, CUSTOMPOINTER)
+#CREATEPTR(MyPtr, "HIROM", $00, 16)
+
+#JMP($00)
+//キヤ-ッ たすかったのねっ!! し゛ゆうなんた゛わっ<line>
+//キヤ-ッ あら わたしったら はしたない。<line>
+//はし゛めまして このまちの ちょうちょうのむすめ<line>
+//セリ-ナて゛す。 あなたか゛たか゛ わたしをたすけて<line>
+//くた゛さったのね!! なんとおれいをいったらよいか。。。<line>
+//いちと゛ セ゛ルカノンというゆうしゃさんか゛ たすけにきて<line>
+//くれたのて゛すけれと゛ そのときは あのモンタリオスに<line>
+//こてんは゜んにのされてしまわれて わたしあきらめかけて<line>
+//いたのて゛す。 あのかたは た゛いし゛ょうふ゛た゛ったかしら。。<line>
+//あっそうそう。 となりのまちの こうさ゛んにも<line>
+//コ゛レアスというコ゛-レムか゛て゛て こうふさんたちか゛<line>
+//こまっているとききました。<line>
+//せ゛ひたすけてあけ゛てくた゛さい。 これは おれいて゛す。<line>
+//チュッチュッ?<line>
+//あっエルフさんも と゛うもありか゛とうこ゛さ゛いました。<line>
+//ウフッ?<end>
+//キャーッ！助かったのねっ!!
+//自由なんだわっ
+//キャーッ！あら、私ったらはしたない。
+//初めましてこの町の町長の娘セリーナです。
+//あなたがらが私を助けてくださったのね!!
+//何とお礼を言ったらよいか...
+//一度ゼルカノンという勇者さんが助けに来てくれたのですけれど
+//その時は、あのモンタリオスにコテンパンにのされてしまわれて
+//私、あきらめていたのです。あの方は大丈夫だったかしら...
+//あっそうそう。 隣の町の鉱山にも
+//ゴレアスというゴーレムが出て工夫さんたちが困っていると聞きました。
+//是非助けてあげてください。これはお礼です。
+//チュッチュッ?
+//あっエルフさんもどうもありがとうございました。
+//ウフッ?
+Kyaa! I'm saved!!<line>
+I'm free at last!<line>
+Kyaa! Oh my, how unladylike of me!<scroll>
+Nice to meet you. I'm Serina, the<line>
+daughter of the mayor of this town.<scroll>
+So you're the ones who rescued me,<line>
+aren't you!?<line>
+I don't even know how to thank you<line>
+enough...<scroll>
+A while ago, a brave man named<line>
+Zelkannon came to try and save me,<line>
+but at that time, he was completely<line>
+defeated by Montarios...<scroll>
+So I had already given up hope.<line>
+I wonder if he's all right now...<scroll>
+Oh, that's right! I heard that in<line>
+the mines of the neighboring town,<line>
+a golem named Goleas has appeared,<line>
+and the miners are in trouble.<line>
+Please, could you go and help<line>
+them too?<scroll>
+This is my token of gratitude.<line>
+Chu, chu!<scroll>
+Ah, and thank you as well,<line>
+dear Elf! Hehe~<scroll><end>

@@ -1,0 +1,60 @@
+#VAR(Table,TABLE)
+#ADDTBL("ganseki_table.txt",Table)
+#ACTIVETBL(Table)
+#HDR($0)
+#VAR(MyPtr, CUSTOMPOINTER)
+#CREATEPTR(MyPtr, "HIROM", $00, 16)
+
+#JMP($00)
+//なんた゛なんた゛ いったいなんなんた゛!!<line>
+//このセ゛ルカノンさまか゛ たおせなかったハ゛ロンを<line>
+//さっさとたおすとは きさまらか゛つよいのか<line>
+//このおれさまか゛よわいのか と゛っちなんた゛!!<line>
+//わかった!!<line>
+//このおれとのたたかいて゛ ハ゛ロンもよわっていたのた゛な<line>
+//フフフ。。。<line>
+//。。。しかし ロトムのまちのモンタリオスには<line>
+//かなうまい。 とうせ゛んこのオレさまも まけたのた゛か゛。<line>
+//やつには まほうか゛なかなかきかないのた゛。<line>
+//はっ! ヒントをあたえてしまった。。。 いかんいかん。<line>
+//とにかく あいつはつよいのた゛から やつをたおすのは<line>
+//このセ゛ルカノンさまに きまっているのた゛っ。     <line>
+//いってもむた゛た゛そ゛っ。。。<end>
+//何だ何だ
+//一体何だ何だ!!
+//このゼルカノン様が倒せなかったバロンをさっさと倒すとは
+//貴様らが強いのか。
+//この俺様が弱いのかどっちなんだ!!
+//分かった!!
+//この俺との戦いでバロンも弱っていたのだな。
+//フフフ...
+//しかし、ロトムの町のモンタリオスには敵うまい。
+//当然この俺様も負けたのだが。
+//やつには魔法がなかなか効かないのだ。
+//はっ！ヒントを与えてしまった...
+//いかんいかん。
+//とにかくあいつは強いのだからやつを倒すのは
+//このゼルカノン様に決まっているのだっ。
+//いっても無駄だぞつ...
+Cái gì cái gì!!<line>
+Chỉ trong chớp mắt mà lũ các ngươi hạ<line>
+được con yêu Baron mà ngay cả ông<line>
+Zelkannon đây cũng không làm gì được!<line>
+Là do các ngươi quá mạnh hay là do<line>
+ông đây yếu hả!!<scroll>
+Mà thôi,ông hiểu rồi!!<line>
+Là do con yêu Baron đã yếu đi nhiều<line>
+sau khi đánh nhau với ông đây.<scroll>
+Khà khà khà...<line>
+Nhưng lũ các ngươi sẽ không địch nổi<line>
+con yêu Montarios ở phố Rotom đâu.<line>
+Ngay cả ông đây cũng phải chịu thua<line>
+nó mà. Bởi vì ma pháp không có tác<line>
+dụng với nó.<scroll>
+Chết cha!Ta lỡ miệng tiết lộ<line>
+mất rồi...<line>
+Hỏng,hỏng.<scroll>
+Mà dù sao thì nó cũng rất mạnh,chỉ<line>
+có ông Zelkannon đây mới có thể<line>
+lấy mạng của nó được...<line>
+Các ngươi có tới đó cũng vô ích thôi...<scroll><end>

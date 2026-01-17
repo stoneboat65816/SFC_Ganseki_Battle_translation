@@ -1,0 +1,44 @@
+#VAR(Table,TABLE)
+#ADDTBL("ganseki_table.txt",Table)
+#ACTIVETBL(Table)
+#HDR($0)
+#VAR(MyPtr, CUSTOMPOINTER)
+#CREATEPTR(MyPtr, "HIROM", $00, 16)
+
+#JMP($00)
+//パチパチ。見事だ‼
+//先ほどからお主らの戦いぶりを拝見しておったが実素晴らしいぞ！
+//申し遅れたが拙者はクレオ国王の使い者でゴッペルと申すものでござる。
+//実は、わが国クレオではしばらく前に破壊王ゾールとなるものが
+//突如現れ、そやつが地獄より召喚した魔物により
+//クレオの国民は恐怖に脅かされる毎日なのだ。
+//ぜひクレオに来て6匹の魔物とゾールを倒して頂きたい．．．
+//何！来てくださるのか！
+//ありがたい！
+//それでは早速東にある
+//ノーザンクスという町へ行ってく参れ。
+//拙者は主に早速このことを伝えに参るのだ。
+Clap, clap! Splendid! Truly splendid!<line>
+I have been watching your battles<line>
+for some time now, and I must say<line>
+your skills are most impressive!<scroll>
+Ah, forgive my late introduction.<line>
+I am Goppel, an envoy of King Cleo.<scroll>
+In truth, our kingdom of Cleo has<line>
+recently been thrown into chaos<line>
+for a being known as Zorl,<line>
+the King of Destruction, suddenly<line>
+appeared.<scroll>
+The monsters he has summoned<line>
+from the depths of hell have<line>
+plunged our people into days of<line>
+terror and despair.<scroll>
+I humbly ask that you come to Cleo<line>
+and defeat the six monsters and<line>
+Zorl himself...<scroll>
+What's that? You'll come?<line>
+Oh, how grateful I am!<line>
+Then please, make your way East<line>
+to the town of Northanks at once.<line>
+I must go ahead to inform my lord<line>
+of this wonderful news!<end>

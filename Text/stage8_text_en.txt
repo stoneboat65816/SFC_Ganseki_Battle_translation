@@ -1,0 +1,25 @@
+#VAR(Table,TABLE)
+#ADDTBL("ganseki_table.txt",Table)
+#ACTIVETBL(Table)
+#HDR($0)
+#VAR(MyPtr, CUSTOMPOINTER)
+#CREATEPTR(MyPtr, "HIROM", $00, 16)
+
+#JMP($00)
+//わか゛しもへ゛ト゛ラコ゛スまて゛をも よくもたおしてくれたな。<line>
+//このた゛いしょうは きさまらのいのちこ゛ときて゛は<line>
+//すまさんそ゛!<line>
+//はかいおうソ゛-ルのちからを。。。<line>
+//あんこくかいのちからを いま みせてやろう。。。<ankoku><end>
+//我が僕ドラゴスまでをよくも倒してくれたな。
+//この代償は貴様らの命ごときでは済まさんぞ！
+//破壊王ゾールのちからを…
+//暗黒界の力を今みせてやろう…
+How dare you defeat even my<line>
+servant Dragos.<scroll>
+The price for that will not be paid<line>
+with mere lives like yours!<line>
+The power of Zorl, the King of<line>
+Destruction...<line>
+I will now show you the might<line>
+of the Dark Realm...<ankoku><scroll><end>

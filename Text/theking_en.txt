@@ -1,0 +1,41 @@
+#VAR(Table,TABLE)
+#ADDTBL("ganseki_table.txt",Table)
+#ACTIVETBL(Table)
+#HDR($0)
+#VAR(MyPtr, CUSTOMPOINTER)
+#CREATEPTR(MyPtr, "HIROM", $00, 16)
+
+#JMP($00)
+//さあっ!ゾールはどこぢゃ。 ワシが来たからには<line>
+//もう逃げら．．．なんぢゃ せっかくワシが来たのに<line>
+//もう終わっとったか。 残念。<line>
+//ゾールめを見事たおしたというのは そちたちか?<line>
+//ご苦労であった。 このクレオ心から礼を言うぞっ<line>
+//しかし 惜しいのう。<line>
+//ワシがもう少し 早く着いておれば<line>
+//若いころから慣らした 召喚の術をもって<line>
+//してじゃな ウリャ-ドリャ-と こんな具合に…<line>
+//。。。ん なんぢゃ?                <line>
+//やめんかっ ワシのいうことを 聞かんかっ<line>
+//アレ-ッ。。。<line>
+//<line>
+//<line>
+All right! Where is Zorl?<line>
+Now that I'm here,<line>
+he won't be able to escape!<scroll>
+...What's this?<line>
+After I came all this way,<line>
+it's already over? What a pity.<scroll>
+So you're the ones who defeated<line>
+that Zorl so splendidly?<line>
+You've done well. Cleo thanks<line>
+you from the bottom of his heart.<scroll>
+But still... what a shame.<line>
+If only I had arrived a<line>
+little earlier,I could have used<line>
+the summoning arts I've<line>
+honed since my youth like this,<line>
+something like that...<scroll>
+...Hm? What's this?<line>
+Stop that! Listen to what<line>
+I'm saying!<scroll><end>

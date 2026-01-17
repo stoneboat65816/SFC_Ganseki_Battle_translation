@@ -1,0 +1,39 @@
+#VAR(Table,TABLE)
+#ADDTBL("ganseki_table.txt",Table)
+#ACTIVETBL(Table)
+#HDR($0)
+#VAR(MyPtr, CUSTOMPOINTER)
+#CREATEPTR(MyPtr, "HIROM", $00, 16)
+
+#JMP($00)
+//パチパチ。見事だ‼
+//先ほどからお主らの戦いぶりを拝見しておったが実素晴らしいぞ！
+//申し遅れたが拙者はクレオ国王の使い者でゴッペルと申すものでござる。
+//実は、わが国クレオではしばらく前に破壊王ゾールとなるものが
+//突如現れ、そやつが地獄より召喚した魔物により
+//クレオの国民は恐怖に脅かされる毎日なのだ。
+//ぜひクレオに来て6匹の魔物とゾールを倒して頂きたい．．．
+//何！来てくださるのか！
+//ありがたい！
+//それでは早速東にある
+//ノーザンクスという町へ行ってく参れ。
+//拙者は主に早速このことを伝えに参るのだ。
+Bộp bộp! Hoan hô,hoan hô~<line>
+Ta đã chứng kiến cảnh các vị chiến đấu<line>
+từ lúc nãy.Quả thực rất tuyệt vời!<scroll>
+Xin thứ lỗi vì xưng danh muộn.<line>
+Ta đây chính là Goppel,gia thần của<line>
+Quốc vương xứ Cleo này.<line>
+Thực ra là cách đây không lâu,vua hủy<line>
+diệt Zorl đột nhiên xuất hiện ở nước<line>
+Cleo chúng ta,và rồi hắn triệu hồi đám<line>
+yêu ma từ địa ngục,ngày ngày gieo rắc<line>
+nỗi kinh hoàng lên quốc dân Cleo.<scroll>
+Ta mong các vị hãy đánh bại 6 con yêu<line>
+ma và tên Zorl đó để trừ hại cho dân.<scroll>
+Sao!Các vị đồng ý à!<line>
+Thực là quý hóa quá!<line>
+Vậy thì hãy mau mau đến thành phố<line>
+Northanks cách đây về hướng Đông.<line>
+Còn ta sẽ mau chóng đem chuyện này<line>
+bẩm báo đức ngài mới được.<end>

@@ -1,0 +1,84 @@
+#VAR(Table,TABLE)
+#ADDTBL("ganseki_table.txt",Table)
+#ACTIVETBL(Table)
+#HDR($0)
+#VAR(MyPtr, CUSTOMPOINTER)
+#CREATEPTR(MyPtr, "HIROM", $00, 16)
+
+#JMP($00)
+//おっなんた゛? ケンカか? こいつあおと゛ろいたねぇ<line>
+//そこにねちまってるのは コ゛レアスか?<line>
+//にいちゃんたちか゛やったって?<line>
+//へ-っ たいしたもんた゛ねしかし。<line>
+//おっ? ちょいとと゛いてくんな。 カンカンカンカンッ<line>
+//おいおい こりゃきんた゛よ。 あっしのめに くるいは<line>
+//なかったね。 このあたりにゃ きんか゛ねむっていると<line>
+//ふんて゛たんた゛か゛ めのまえにて゛っけぇのか゛ ねっころか゛って<line>
+//やか゛ったよ。 え? よかったらと゛-そ゛?<line>
+//し゛ょ-た゛んいっちゃいけねぇ! やせてもかれても<line>
+//ひとのものほしか゛るような。。。 ん-くれるってんなら<line>
+//もらわないこたないよ。。。 くれる? あそう?<line>
+//にいちゃんたちも よくか゛ないねぇ。。。 え?<line>
+//このあたりて゛ まもののはなしをきかねえかって?<line>
+//きくもきかねえも うちのかみさんのむら タハ゜し゛ゃ<line>
+//すけ゛ぇまほうつかいのヤロ-か゛ のさは゛って。。。<line>
+//えっ? もういっちゃうの?<line>
+//にいちゃんたちも いそか゛しいねぇ。<line>
+//そんし゛ゃ ようし゛んして。 たっしゃて゛な。。。<end>
+//おっ何だ？喧嘩か？こいつは驚いたねぇ。
+//そこに寝ちまってるのは、ゴレアスか？
+//兄ちゃんたちがやったって？
+//へぇっ、大したものんだねしかし。
+//おっ？ちょっと退いてくんな。カンカンカンカンッ。
+//おいおい こりゃ金だよ。あっしの目に狂いはなかったね。
+//この辺りにゃ金が眠っていると踏んでたんだが
+//目の前にでっけぇのが寝っ転がってやがったよ。
+//え? よかったらどうぞ？
+//冗談言っちゃいけねぇ！痩せても枯れても
+//人のもの欲しがるような...
+//ん、くれるってんなら貰わないこたないよ...
+//くれる？あそう？
+//兄ちゃんたちも欲がないねぇ...えっ？
+//この辺りで魔物の話を聞かねえかって？
+//聞くも聞かねえも、うちのかみさんの村タパじゃ
+//すげぇ魔法使いの野郎がのさばって...
+//えっ? もう行っちゃうの？
+//兄ちゃんたちも忙しいねぇ。
+//そんじゃ用心して。達者でな...
+Oh? What's this? A fight?<line>
+Well, I'll be damned.<line>
+That big guy lying there,<line>
+is that Goleas?<line>
+You folks took him down?<line>
+Heh, that's something else,<line>
+I tell ya.<scroll>
+Oh? Mind stepping aside a bit?<line>
+Clang, clang, clang, clang!<scroll>
+Hey hey this is gold!<line>
+Didn't I tell ya my instincts were<line>
+right on the money?<line>
+I figured there had to be gold<line>
+buried around here,but turns out<line>
+there was a big lug lying right<line>
+on top of it!<scroll>
+Huh? You say I can have it?<line>
+Don't joke like that! I may be a<line>
+scrappy guy,but I ain't the kind<line>
+to go snatching what's not mine.<scroll>
+...well, if you're really giving<line>
+it to me,I guess I shouldn't say<line>
+no, huh?You sure about that?<line>
+Really?<scroll>
+You folks sure aren't greedy, huh...<line>
+Oh, what's that?<line>
+You're asking if I've heard<line>
+anything about monsters<line>
+around here?<scroll>
+Heh, heard about 'em?<line>
+My wife's village, Tapa,is being<line>
+terrorized by some crazy powerful<line>
+wizard!<scroll>
+What, you're already heading out?<line>
+You folks sure are busy.<line>
+Well then,take care out there,<line>
+and good luck to ya!<scroll><end>

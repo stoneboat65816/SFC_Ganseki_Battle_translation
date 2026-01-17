@@ -1,0 +1,62 @@
+#VAR(Table,TABLE)
+#ADDTBL("ganseki_table.txt",Table)
+#ACTIVETBL(Table)
+#HDR($0)
+#VAR(MyPtr, CUSTOMPOINTER)
+#CREATEPTR(MyPtr, "HIROM", $00, 16)
+
+#JMP($00)
+//キヤ-ッ たすかったのねっ!! し゛ゆうなんた゛わっ<line>
+//キヤ-ッ あら わたしったら はしたない。<line>
+//はし゛めまして このまちの ちょうちょうのむすめ<line>
+//セリ-ナて゛す。 あなたか゛たか゛ わたしをたすけて<line>
+//くた゛さったのね!! なんとおれいをいったらよいか。。。<line>
+//いちと゛ セ゛ルカノンというゆうしゃさんか゛ たすけにきて<line>
+//くれたのて゛すけれと゛ そのときは あのモンタリオスに<line>
+//こてんは゜んにのされてしまわれて わたしあきらめかけて<line>
+//いたのて゛す。 あのかたは た゛いし゛ょうふ゛た゛ったかしら。。<line>
+//あっそうそう。 となりのまちの こうさ゛んにも<line>
+//コ゛レアスというコ゛-レムか゛て゛て こうふさんたちか゛<line>
+//こまっているとききました。<line>
+//せ゛ひたすけてあけ゛てくた゛さい。 これは おれいて゛す。<line>
+//チュッチュッ?<line>
+//あっエルフさんも と゛うもありか゛とうこ゛さ゛いました。<line>
+//ウフッ?<end>
+//キャーッ！助かったのねっ!!
+//自由なんだわっ
+//キャーッ！あら、私ったらはしたない。
+//初めましてこの町の町長の娘セリーナです。
+//あなたがらが私を助けてくださったのね!!
+//何とお礼を言ったらよいか...
+//一度ゼルカノンという勇者さんが助けに来てくれたのですけれど
+//その時は、あのモンタリオスにコテンパンにのされてしまわれて
+//私、あきらめていたのです。あの方は大丈夫だったかしら...
+//あっそうそう。 隣の町の鉱山にも
+//ゴレアスというゴーレムが出て工夫さんたちが困っていると聞きました。
+//是非助けてあげてください。これはお礼です。
+//チュッチュッ?
+//あっエルフさんもどうもありがとうございました。
+//ウフッ?
+Ái da~Mình được cứu rồi!!<line>
+Mình được tự do rồi~<line>
+Ui da,sao mình thảm hại vậy nè~<scroll>
+Rất hân hạnh được diện kiến các vị.<line>
+Tôi đây là Serina,con gái của trưởng<line>
+thôn.Các vị là người đã giải cứu tôi<line>
+nhỉ.Tôi phải nói lời cảm tạ thế nào<line>
+mới được đây...<scroll>
+Trước đây có tráng sĩ Zelkannon tới<line>
+đây cứu tôi,nhưng lúc đó anh ta bị<line>
+Montarios đè bẹp như cái bánh kẹp<line>
+luôn.Thế nên tôi từ bỏ hy vọng luôn<line>
+rồi.Tội nghiệp quá.Chả biết anh ta<line>
+có sao không nữa...<scroll>
+Ah đúng rồi,nghe nói ở núi khoáng<line>
+làng bên có quái vật người đá Goleas<line>
+xuất hiện khiến phu phen thợ mỏ ở đó<line>
+khốn đốn.<scroll>
+Các vị hãy đi cứu họ đi.<line>
+Đây là món quà cảm ơn của tôi.<scroll>
+Chụt~ Chụt~?<line>
+Ah,cảm ơn cả cô gái tộc Elf nữa nhé.<line>
+Ui chu choa~<end>

@@ -1,0 +1,75 @@
+#VAR(Table,TABLE)
+#ADDTBL("ganseki_table.txt",Table)
+#ACTIVETBL(Table)
+#HDR($0)
+#VAR(MyPtr, CUSTOMPOINTER)
+#CREATEPTR(MyPtr, "HIROM", $00, 16)
+
+#JMP($00)
+//おっなんた゛? ケンカか? こいつあおと゛ろいたねぇ<line>
+//そこにねちまってるのは コ゛レアスか?<line>
+//にいちゃんたちか゛やったって?<line>
+//へ-っ たいしたもんた゛ねしかし。<line>
+//おっ? ちょいとと゛いてくんな。 カンカンカンカンッ<line>
+//おいおい こりゃきんた゛よ。 あっしのめに くるいは<line>
+//なかったね。 このあたりにゃ きんか゛ねむっていると<line>
+//ふんて゛たんた゛か゛ めのまえにて゛っけぇのか゛ ねっころか゛って<line>
+//やか゛ったよ。 え? よかったらと゛-そ゛?<line>
+//し゛ょ-た゛んいっちゃいけねぇ! やせてもかれても<line>
+//ひとのものほしか゛るような。。。 ん-くれるってんなら<line>
+//もらわないこたないよ。。。 くれる? あそう?<line>
+//にいちゃんたちも よくか゛ないねぇ。。。 え?<line>
+//このあたりて゛ まもののはなしをきかねえかって?<line>
+//きくもきかねえも うちのかみさんのむら タハ゜し゛ゃ<line>
+//すけ゛ぇまほうつかいのヤロ-か゛ のさは゛って。。。<line>
+//えっ? もういっちゃうの?<line>
+//にいちゃんたちも いそか゛しいねぇ。<line>
+//そんし゛ゃ ようし゛んして。 たっしゃて゛な。。。<end>
+//おっ何だ？喧嘩か？こいつは驚いたねぇ。
+//そこに寝ちまってるのは、ゴレアスか？
+//兄ちゃんたちがやったって？
+//へぇっ、大したものんだねしかし。
+//おっ？ちょっと退いてくんな。カンカンカンカンッ。
+//おいおい こりゃ金だよ。あっしの目に狂いはなかったね。
+//この辺りにゃ金が眠っていると踏んでたんだが
+//目の前にでっけぇのが寝っ転がってやがったよ。
+//え? よかったらどうぞ？
+//冗談言っちゃいけねぇ！痩せても枯れても
+//人のもの欲しがるような...
+//ん、くれるってんなら貰わないこたないよ...
+//くれる？あそう？
+//兄ちゃんたちも欲がないねぇ...えっ？
+//この辺りで魔物の話を聞かねえかって？
+//聞くも聞かねえも、うちのかみさんの村タパじゃ
+//すげぇ魔法使いの野郎がのさばって...
+//えっ? もう行っちゃうの？
+//兄ちゃんたちも忙しいねぇ。
+//そんじゃ用心して。達者でな...
+Chời cái chi dị nè? Quýnh lộn hở?<line>
+Thiệt là ngạc nhiên quớ đi nè.<line>
+Cái đứa nằm ngủ đằng kia là Goleas hở?<line>
+Mí anh chai đòm nó hở?<line>
+Dỏi quá xá dỏi!<scroll>
+Ui dà chánh ra cái coi nè.<line>
+Coong coong coong coong~<scroll>
+Ui dà dàng nè.Đúng thiệt là dàng rùi.<line>
+Mắt tui còn tinh tường lắm đó.<line>
+Tui cứ nghỉ chổ này có nhìu dàng<line>
+chôn dấu mà ai dè lại có cục to<line>
+đùng nằm ngay chước mắt.<scroll>
+Sao?Mí ông anh nói tui có thể lấy<line>
+níu mún á?<line>
+Dởn mặt!Tui có nghèo có khổ củng<line>
+hổng có thèm thuồng đồ của người<line>
+khác đâu nghen...<scroll>
+Sao á?Cho tui thiệt á?<line>
+Mí anh chai thiệt là hổng có lòng<line>
+tham tí nào hết á...<scroll>
+Hở?Hỏi chiện yêu quái dùng này á?<line>
+Đúng đúng,chổ khu làng Tapa của con<line>
+dợ tui có con mẹ pháp sư lộng hành<line>
+ghê gứm lắm...<scroll>
+Hở?Đi rùi sao?<line>
+Mí ông anh đúng thiệt người bựng rộn.<line>
+Mà thui nhớ bảo chọng,<line>
+đi mạnh dỏi hen...<scroll><end>

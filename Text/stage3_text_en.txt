@@ -1,0 +1,54 @@
+#VAR(Table,TABLE)
+#ADDTBL("ganseki_table.txt",Table)
+#ACTIVETBL(Table)
+#HDR($0)
+#VAR(MyPtr, CUSTOMPOINTER)
+#CREATEPTR(MyPtr, "HIROM", $00, 16)
+
+#JMP($00)
+//おおなんと!! あのおそろしいフ゛ロッケンを<line>
+//たおされるとは!! あなたか゛たは いったい。。。<line>
+//ナントナント!! 2と゛ひ゛っくり。ほかのまものたちも<line>
+//たおされるおつもりて゛すとなっ!!<line>
+//それて゛は よろこんて゛おおしえしましょう。<line>
+//ここからみえるやまのふもとのまち クレノスには<line>
+//ハ゛ロンというク゛リフォンか゛おり まちのものか゛<line>
+//こまっておるそうて゛す。<line>
+//せんし゛つ ひとりのゆうしゃと みす゛からなのるおとこか゛<line>
+//ハ゛ロンをたおしにむかったと ききました。。。<line>
+//しかし それからなんのおとさたもないようて゛す。<line>
+//わたしには これくらいのことしか わかりませんか゛<line>
+//あなたか゛たのふ゛し゛を いのっております。<end>
+//おお何と!!あの恐ろしいブロッケンを倒されるとは!!
+//あなた方は一体...
+//何と何と！
+//2度びっくり。他の魔物たちも倒されるおつもりですとな!!
+//それでは喜んでお教えしましょう。
+//ここから見える山のふもとの町クレノスにはバロンというグリフォンがおり、
+//町のものが困っておるそうです。
+//先日一人の勇者とみずから名乗る男がバロンを倒しに向かったと聞きました...
+//しかし、それからなんの音沙汰もないようです。
+//私にはこれくらいのことしか分かりませんがあなた方の無事を祈っております。
+Oh my!  You defeated that<line>
+terrifying Brocken!? <line>
+Just who in the world are you...?<scroll>
+What!?  What's this!?<line>
+You even intend to defeat the<line>
+other monsters as well!?  <line>
+How astonishing twice over!<scroll>
+Very well, I'll gladly tell you<line>
+what I know.<scroll>
+At the foot of the mountain<line>
+visible from here lies a town<line>
+called Crenos.<line>
+There, a griffon named Baron has<line>
+been troubling the townspeople.<scroll>
+Not long ago, I heard that a man<line>
+who called himself a hero set<line>
+out to defeat Baron...<scroll>
+But since then, there's been no<line>
+word from him at all.<scroll>
+I'm afraid that's all the<line>
+information I can offer you,<line>
+but I'll be praying for your<line>
+safety and success.<scroll><end>

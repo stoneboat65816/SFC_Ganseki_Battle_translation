@@ -1,0 +1,66 @@
+#VAR(Table,TABLE)
+#ADDTBL("ganseki_table.txt",Table)
+#ACTIVETBL(Table)
+#HDR($0)
+#VAR(MyPtr, CUSTOMPOINTER)
+#CREATEPTR(MyPtr, "HIROM", $00, 16)
+
+#JMP($00)
+//なんた゛なんた゛ いったいなんなんた゛!!<line>
+//このセ゛ルカノンさまか゛ たおせなかったハ゛ロンを<line>
+//さっさとたおすとは きさまらか゛つよいのか<line>
+//このおれさまか゛よわいのか と゛っちなんた゛!!<line>
+//わかった!!<line>
+//このおれとのたたかいて゛ ハ゛ロンもよわっていたのた゛な<line>
+//フフフ。。。<line>
+//。。。しかし ロトムのまちのモンタリオスには<line>
+//かなうまい。 とうせ゛んこのオレさまも まけたのた゛か゛。<line>
+//やつには まほうか゛なかなかきかないのた゛。<line>
+//はっ! ヒントをあたえてしまった。。。 いかんいかん。<line>
+//とにかく あいつはつよいのた゛から やつをたおすのは<line>
+//このセ゛ルカノンさまに きまっているのた゛っ。     <line>
+//いってもむた゛た゛そ゛っ。。。<end>
+//何だ何だ
+//一体何だ何だ!!
+//このゼルカノン様が倒せなかったバロンをさっさと倒すとは
+//貴様らが強いのか。
+//この俺様が弱いのかどっちなんだ!!
+//分かった!!
+//この俺との戦いでバロンも弱っていたのだな。
+//フフフ...
+//しかし、ロトムの町のモンタリオスには敵うまい。
+//当然この俺様も負けたのだが。
+//やつには魔法がなかなか効かないのだ。
+//はっ！ヒントを与えてしまった...
+//いかんいかん。
+//とにかくあいつは強いのだからやつを倒すのは
+//このゼルカノン様に決まっているのだっ。
+//いっても無駄だぞつ...
+What the... what the...!?  <line>
+What in the world is going<line>
+on here!?<scroll>
+You mean to tell me you actually<line>
+defeated Baron, the one even I,<line>
+the great Zelkannon, couldn't<line>
+bring down!?<scroll>
+So what is it then!?  <line>
+Are you that strong...<line>
+or am I that weak!?<scroll>
+...I see now!!<line>
+Baron must've already been<line>
+weakened from my earlier battle<line>
+with him, that's all!<line>
+Heh heh heh...<scroll>
+However! You'll never be able to<line>
+defeat Montarios of the town<line>
+of Rotom.<scroll>
+Of course, even I lost to him...<line>
+His magic resistance is no joke.<line>
+Most spells hardly work on him!<scroll>
+Ah! I just gave you a hint, didn't I!?<line>
+No, no, that won't do!<scroll>
+Anyway! He's a powerful one , but<line>
+the one who'll defeat him will be<line>
+none other than me,<line>
+the great Zelkannon!<line>
+Don't even bother trying! Tch...<scroll><end>

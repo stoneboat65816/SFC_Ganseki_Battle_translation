@@ -1,0 +1,45 @@
+#VAR(Table,TABLE)
+#ADDTBL("ganseki_table.txt",Table)
+#ACTIVETBL(Table)
+#HDR($0)
+#VAR(MyPtr, CUSTOMPOINTER)
+#CREATEPTR(MyPtr, "HIROM", $00, 16)
+
+#JMP($00)
+//おおなんと!! あのおそろしいフ゛ロッケンを<line>
+//たおされるとは!! あなたか゛たは いったい。。。<line>
+//ナントナント!! 2と゛ひ゛っくり。ほかのまものたちも<line>
+//たおされるおつもりて゛すとなっ!!<line>
+//それて゛は よろこんて゛おおしえしましょう。<line>
+//ここからみえるやまのふもとのまち クレノスには<line>
+//ハ゛ロンというク゛リフォンか゛おり まちのものか゛<line>
+//こまっておるそうて゛す。<line>
+//せんし゛つ ひとりのゆうしゃと みす゛からなのるおとこか゛<line>
+//ハ゛ロンをたおしにむかったと ききました。。。<line>
+//しかし それからなんのおとさたもないようて゛す。<line>
+//わたしには これくらいのことしか わかりませんか゛<line>
+//あなたか゛たのふ゛し゛を いのっております。<end>
+Trời ơi!!  Các vị đây đã đánh bại được<line>
+tên quái vật Brocken đáng sợ đó<line>
+rồi sao!!<scroll>
+Chẳng hay các vị đây là thần nhân<line>
+phương nào vậy...<scroll>
+Cái gì!? Trong một ngày mà khiến tôi<line>
+kinh ngạc tới tận 2 lần cơ à!<line>
+Các vị đây còn muốn tiễu trừ đám<line>
+yêu ma khác nữa sao!!<scroll>
+Nếu vậy thì để tôi nói điều này.<line>
+Từ đây có thể nhìn thấy ngọn núi đằng<line>
+kia,dưới chân núi có thị trấn Clenos,<line>
+nơi đó còn có con quái vật Gryphon<line>
+đầu ưng mình sư tên là Baron.<line>
+Vì nó mà trăm họ dưới núi phải<line>
+khổ sở lầm than.<scroll>
+Hôm xưa có kẻ tự xưng là tráng sĩ,<line>
+đơn thương độc mã đi lấy mạng<line>
+Baron nhưng mà rồi...<scroll>
+Bặt vô âm tín.Chẳng còn tin tức gì về<line>
+kẻ đó nữa.<line>
+Tôi cũng chỉ biết có vậy thôi.<line>
+Xin cầu chúc cho các vị anh hùng nữ<line>
+kiệt đây được bình an vô sự.<scroll><end>
