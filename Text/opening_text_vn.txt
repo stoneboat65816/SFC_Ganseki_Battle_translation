@@ -1,0 +1,53 @@
+#VAR(Table,TABLE)
+#ADDTBL("ganseki_table.txt",Table)
+#ACTIVETBL(Table)
+#HDR($0)
+#VAR(MyPtr, CUSTOMPOINTER)
+#CREATEPTR(MyPtr, "HIROM", $00, 16)
+
+#JMP($00)
+Ngày xửa ngày xưa,tại đất nước Cleo<line>
+nọ,người ta đã phát hiện ra một loại<line>
+đá được gọi là Power Stone với nguồn<line>
+sức mạnh tuyệt vời.<scroll>
+Khi kết hợp các Power Stone cùng loại<line>
+với nhau thì chúng sẽ tiêu biến,đồng<line>
+thời phát sinh ra năng lượng khiến<line>
+cho sức mạnh của kẻ sở hữu tăng trưởng<line>
+đáng kể.<scroll>
+Power Stone được ứng dụng trong nhiều<line>
+lãnh vực khác nhau,rồi dần dần cũng<line>
+được sử dụng để chiến đấu.<scroll>
+Các chiến sĩ bắt đầu sử dụng Power<line>
+Stone được đóng thành khối dễ dùng.<line>
+Và rồi người ta gọi những trận đấu mà<line>
+các chiến sĩ tỷ thí với nhau bằng những<line>
+khối đá đó là "trận đấu nham thạch",hay<line>
+gọi cách khác là "chọi đá".<scroll>
+Rồi thì cái ngày mà đá sức mạnh rơi<line><ankoku>
+vào tay cái ác cũng đã đến.<scroll>
+Cùng lúc đó có 3 chiến sĩ chọi đá là<line>
+là Hawk, Lu và Edd ngày đêm mài giũa<line>
+năng lực chiến đấu của mình qua những<line>
+trận tập huấn không ngừng nghỉ.<scroll><end>
+
+//その昔、クレオという国で素晴らしい力を
+//秘めた岩石　パワーストーンが発見された。
+//同じ種類のパワーストーンを合わせると
+//パワーストーンは消滅し、その時に
+//発生するパワーでそれを持つものの力を
+//増幅することができるのである。
+//パワーストーンは様々な分野で利用され
+//やがて戦闘にも使われるようになっていった。
+//パワーストーンを使いやすい形つまり
+//ブロックの形にして戦士たちがそれを
+//使い始めたのた。
+//そのブロックを使った戦いを岩石バトル
+//と呼ぶようになった。
+//そしてついにその力が悪の手に
+//渡る日が来たのであった
+//一方時をと同じくして3人の
+//岩石バトラー
+//ホーク、ルゥ、エドたちは
+//今日も岩石バトルの腕を磨くための
+//特訓を繰り返していた

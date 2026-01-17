@@ -1,0 +1,17 @@
+#VAR(Table,TABLE)
+#ADDTBL("ganseki_table.txt",Table)
+#ACTIVETBL(Table)
+#HDR($0)
+#VAR(MyPtr, CUSTOMPOINTER)
+#CREATEPTR(MyPtr, "HIROM", $00, 16)
+
+#JMP($00)
+//イージクリア やったね? 少しは 慣れたかな?<line>
+//ノ-マルて゛クリアすると エンテ゛ィンク゛か゛あるんた゛ヨ。<line>
+//カ゛ンハ゛ッテみよ-っ?<end>
+
+You cleared Easy mode?Nice job!<line>
+Getting the hang of it a little?<scroll>
+If you clear it on Normal mode,<line>
+there's an ending, you know.<line>
+Give it a try. Go for it!<end>

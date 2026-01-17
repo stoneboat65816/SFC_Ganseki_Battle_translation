@@ -1,0 +1,19 @@
+#VAR(Table,TABLE)
+#ADDTBL("ganseki_table.txt",Table)
+#ACTIVETBL(Table)
+#HDR($0)
+#VAR(MyPtr, CUSTOMPOINTER)
+#CREATEPTR(MyPtr, "HIROM", $00, 16)
+
+#JMP($00)
+//スコ゛イスコ゛イ ルゥちゃんもおてあけ゛の ハ-ト゛クリア!<line>
+//う-ん し゛ゃあ もしマスタ-て゛クリアて゛きたら<line>
+//とってもいいことを おしえちゃいまぁす。<line>
+//やくそくねっ?<end>
+Giỏi quá giỏi quá!Quý bạn đây phá<line>
+đảo cả chế độ khó mà Lu tui cũng<line>
+phải pó tay!<scroll>
+Đúng đúng!Nếu quý bạn phá đảo được<line>
+chế độ cực khó thì Lui thề sẽ cho<line>
+quý bạn biết một điều rất chi là hay<line>
+ho.Thề luôn đó!<end>

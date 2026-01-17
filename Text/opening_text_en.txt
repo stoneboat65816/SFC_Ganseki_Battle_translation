@@ -1,0 +1,57 @@
+#VAR(Table,TABLE)
+#ADDTBL("ganseki_table.txt",Table)
+#ACTIVETBL(Table)
+#HDR($0)
+#VAR(MyPtr, CUSTOMPOINTER)
+#CREATEPTR(MyPtr, "HIROM", $00, 16)
+
+#JMP($00)
+
+Long ago,in a country called Cleo,<line>
+a mysterious stone possessing<line>
+tremendous power was discovered,<line>
+the Power Stone.<scroll>
+When multi Power Stones of the same<line>
+type were brought together,they<line>
+would disappear,and at that moment,<line>
+the energy released could be used to<line>
+amplify the strength of the person<line>
+who possessed them.<scroll>
+Power Stones soon came to be used<line>
+in many different fields, and<line>
+eventually,they were even employed<line>
+in combat.<scroll>
+To make them easier to handle,the<line>
+stones were shaped into blocks, and<line>
+warriors began using these blocks<line>
+in battle.<scroll>
+These battles fought with Power<line>
+Stone blocks came to be known as<line>
+Rock Battles.<scroll>
+And then,one day, that power finally<line><ankoku>
+fell into the hands of evil...<scroll>
+Meanwhile, around the same time,3<line>
+Rock Battlers:Hawk, Lu, and Edd,were<line>
+spending their days training hard to<line>
+hone their Rock Battle skills.<scroll><end>
+
+//その昔、クレオという国で素晴らしい力を
+//秘めた岩石　パワーストーンが発見された。
+//同じ種類のパワーストーンを合わせると
+//パワーストーンは消滅し、その時に
+//発生するパワーでそれを持つものの力を
+//増幅することができるのである。
+//パワーストーンは様々な分野で利用され
+//やがて戦闘にも使われるようになっていった。
+//パワーストーンを使いやすい形つまり
+//ブロックの形にして戦士たちがそれを
+//使い始めたのた。
+//そのブロックを使った戦いを岩石バトル
+//と呼ぶようになった。
+//そしてついにその力が悪の手に
+//渡る日が来たのであった
+//一方時をと同じくして3人の
+//岩石バトラー
+//ホーク、ルゥ、エドたちは
+//今日も岩石バトルの腕を磨くための
+//特訓を繰り返していた

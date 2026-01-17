@@ -1,0 +1,16 @@
+#VAR(Table,TABLE)
+#ADDTBL("ganseki_table.txt",Table)
+#ACTIVETBL(Table)
+#HDR($0)
+#VAR(MyPtr, CUSTOMPOINTER)
+#CREATEPTR(MyPtr, "HIROM", $00, 16)
+
+#JMP($00)
+//イ-シ゛-クリア やったね? すこしは なれたかな?<line>
+//ノ-マルて゛クリアすると エンテ゛ィンク゛か゛あるんた゛ヨ。<line>
+//カ゛ンハ゛ッテみよ-っ?<end>
+Ái chà,quý bạn đã chơi xong chế độ<line>
+dễ rồi hả?Đã thấy quen tay chưa?<scroll>
+Lần sau thử chơi chế độ bình thường<line>
+xem nào.Cứ phá đảo sẽ có Ending bí<line>
+mật đó.Cố lên nhá!<end>

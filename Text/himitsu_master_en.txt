@@ -1,0 +1,34 @@
+#VAR(Table,TABLE)
+#ADDTBL("ganseki_table.txt",Table)
+#ACTIVETBL(Table)
+#HDR($0)
+#VAR(MyPtr, CUSTOMPOINTER)
+#CREATEPTR(MyPtr, "HIROM", $00, 16)
+
+#JMP($00)
+//キャ-?<line>
+//ついにマスタ-クリアしちゃったぁ? ヤルゥ-ッ<line>
+//では お約束の いいことを教えたげるね!<line>
+//2P対戦の キャラクタ-選択の時に<line>
+//L。R。ホ゛タンを押しなか゛ら。。。<line>
+//(↓ ↑ ↓ ↓ ↑ ↑ ← →)の後Aホ゛タンを<line>
+//押せば対戦の時にボスを使えるようになるんだよ<line>
+//友達と一緒に 使って遊んでね?<line>
+//LR押しながら ↓↑↓↓↑↑←→A よ?<end>
+Wow~<line>
+You actually cleared Master mode!?<line>
+Amazing! Really amazing!<scroll>
+Alright, as promised, I'll tell<line>
+you the special secret!<scroll>
+When choosing characters in<line>
+2 player versus mode,hold<line>
+down the <L> and <R> buttons,<line>
+and then...<scroll>
+After entering ↓↑↓↓↑↑←→ <line>
+then press the <A> button, and you'll<line>
+be able to use the boss in<line>
+versus mode!<scroll>
+Try it out and have fun<line>
+playing with your friends,okay?<scroll>
+Remember: Hold <L>+<R>,<line>
+then ↓↑↓↓↑↑←→ then <A>!!<end>

@@ -1,0 +1,6 @@
+     2 ADDTBL    Added table 'ganseki_table.txt' as 'Table'
+     3 ACTIVETBL Active table is now 'Table'
+     4 HDR       Header size is now $0
+     6 CREATEPTR CustomPointer 'MyPtr' Addressing 'HIROM' Offsetting 0 Size 16d HeaderSize $0
+     8 JMP       ROM Position is now $0
+Wow~<line>You actually cleared Master mode!?<line>Amazing! Really amazing!<scroll>Alright, as promised, I'll tell<line>you the special secret!<scroll>When choosing characters in<line>2 player versus mode,hold<line>down the <L> and <R> buttons,<line>and then...<scroll>After entering ↓↑↓↓↑↑←→ <line>then press the <A> button, and you'll<line>be able to use the boss in<line>versus mode!<scroll>Try it out and have fun<line>playing with your friends,okay?<scroll>Remember: Hold <L>+<R>,<line>then ↓↑↓↓↑↑←→ then <A>!!<end>
