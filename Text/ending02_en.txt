@@ -1,0 +1,21 @@
+#VAR(Table,TABLE)
+#ADDTBL("ganseki_table.txt",Table)
+#ACTIVETBL(Table)
+#HDR($0)
+#VAR(MyPtr, CUSTOMPOINTER)
+#CREATEPTR(MyPtr, "HIROM", $00, 16)
+
+#JMP($00)
+//このゼルカノン様のお陰とはいえ、
+//ついにゾールまで倒したとは!
+//やはり貴様らは俺様と同じぐらい強いということか…
+//というｙことはすごい強いということだ。
+//フフフ…
+Even if it was thanks to the great<line>
+Zelkannon,to think you actually<line>
+defeated Zorl in the end is<line>
+suprising.<scroll>
+So you are about as strong<line>
+as I am...<line>
+Which means you're incredibly<line>
+strong.Heh heh hehe...<scroll><end>

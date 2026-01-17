@@ -1,0 +1,14 @@
+#VAR(Table,TABLE)
+#ADDTBL("ganseki_table.txt",Table)
+#ACTIVETBL(Table)
+#HDR($0)
+#VAR(MyPtr, CUSTOMPOINTER)
+#CREATEPTR(MyPtr, "HIROM", $00, 16)
+
+#JMP($00)
+//あのね あのね みんなにはなしたんた゛けと゛<line>
+//みんなみんなね すこ゛いって?<line>
+//それて゛それて゛ね。。。<end>
+Này này,tôi đã nói với mọi người<line>
+rồi.Họ bảo các vị cừ lắm.<line>
+Và rồi họ còn nói như vầy như vầy...<scroll><end>
