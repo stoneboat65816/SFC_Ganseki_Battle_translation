@@ -9155,7 +9155,7 @@ enable_block:
 	LDA #$007F
 	MVN $7E, $7F
 	
-	LDX #$3E47
+	LDX #$34E7
 	LDY #$4080
 	LDA #$007F
 	MVN $7E, $7F
